@@ -14,6 +14,9 @@ If a particular subset is a solution, its size is stored in an array.
 After all the possible subsets have been evaluated, a reduction operation find the optimal solution
 (minimum or maximum) depending on the problem.
 
-This algorithm is not competetive with Branch-and-Bound solutions.
+These algorithms are not competetive with Branch-and-Bound solutions.
 It might be of interest to illustrate how to take advantage of large number of processors on GPU
 or as the basis for a quick and dirty solution for an NP-hard problem.
+
+The source code is available in C++ and CUDA.
+CUDA code will execute on NVIDIA GPUs.
